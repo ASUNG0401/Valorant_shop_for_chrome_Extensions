@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "VShop — Valorant Today Shop (with backend login)",
+  "description": "Check your Valorant Today's shop from a popup. Login via backend to avoid pasting tokens.",
+  "version": "0.2.0",
+  "action": { "default_popup": "extension/popup.html", "default_title": "VShop" },
+  "permissions": ["storage"],
+  "host_permissions": ["https://localhost:3000/*", "https://*.a.pvp.net/*", "https://api.vshop.one/*"]
+}
